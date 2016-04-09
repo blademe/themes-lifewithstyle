@@ -1,4 +1,38 @@
+/*
+Theme Name: lifewithstyle
+Theme URI: http://www.lwstechnologies.co.za/wp-themes/life-with-style
+Description: Responsive WordPress theme designed for a modern blog experience.
+Version: 1.0
+Author: Russel Fish & Associates
+Author URI: http://www.russelfish.co.za
+Tags: responsive, blog, fluid, modern
+*/
 
+/****************************/
+/* Colours: 		  HEX   */
+/* Light Blue:		00AEED  */
+/****************************/
+
+@import url('bootstrap/css/bootstrap.css');
+@import url('bootstrap/css/bootstrap-responsive.css');
+
+@font-face {
+	font-family: LWST_font1;  
+	src: url('./fonts/rage.ttf'),
+		url('./fonts/rage.eot?#iefix') format('embedded-opentype');  
+}
+
+@font-face {
+	font-family: LWST_font2;  
+	src: url('./fonts/bansheestd.otf'),
+		url('./fonts/bansheestd.eot?#iefix') format('embedded-opentype');  
+}
+
+@font-face {
+	font-family: LWST_font3;  
+	src: url('./fonts/mtcorsva.ttf'),
+		url('./fonts/mtcorsva.eot?#iefix') format('embedded-opentype');  
+}
 
 
 body {
