@@ -9,3 +9,6 @@
 	<meta name="author" content="Russel Fish">
     <?php wp_enqueue_script("jquery"); ?>	
 	<?php wp_head(); ?>
+
+
+	<!-- this is a comment from gevann mullins -->
