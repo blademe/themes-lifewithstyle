@@ -1,0 +1,414 @@
+/******************************************************************
+
+Stylesheet: Medium Stylesheet
+
+Styles apply to 40.063em and up.
+
+******************************************************************/
+
+/*********************
+NAVIGATION STYLES
+*********************/
+/*********************
+LOGIN
+*********************/
+
+#login-modal
+{
+	max-width: rem-calc(480);
+
+	.login-button
+	{
+		background: $gold;
+	}
+}
+.top-bar-section
+{
+	ul li.menu-login a {
+	color: $white;
+	  float: right !important;
+
+		&:hover{
+			color:$gold;
+  			transition: all .25s ease;
+		}
+	}
+
+	ul li.menu-login-divider a {
+		padding:0 !important;
+		  float: right !important;
+		&:hover {
+			cursor: default;
+			color:$white;
+		}
+	}
+
+	ul li.menu-divider a {
+		height: rem-calc(25);
+		width: 1px;
+		background-color: #fff !important;
+		line-height: 1 !important;
+		padding: 0 !important;
+		margin: 45px 5px 0 20px;
+		  float: right !important;
+	}
+
+	ul li.menu-logout {
+		display: none;
+	}
+}
+
+
+.wp-core-ui .button-primary{
+	background-color: $gold;
+	color: $white;
+	border-spacing: $gold;
+}
+
+.login .message{
+border-left: 4px solid $gold;
+}
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
+/* entry content */
+.entry-content {
+
+
+	/* at this larger size, we can start to align images */
+	.alignleft, img.alignleft {
+		margin-right: 1.5em;
+		display: inline;
+		float: left;
+	}
+	.alignright, img.alignright {
+		margin-left: 1.5em;
+		display: inline;
+		float: right;
+	}
+	.aligncenter, img.aligncenter {
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		clear: both;
+	}
+
+} /* end .entry-content */
+
+
+.social-media-links
+{
+	background-color: $gold;
+	min-height: 150px;
+	color: $white;
+	padding: rem-calc(30) 0 rem-calc(30) 0;
+	& span {
+		display: inline-block;
+		margin: rem-calc(15) 0;
+	}
+	& a {
+		display: inline-block;
+		margin:0 rem-calc(15) rem-calc(15) rem-calc(15);
+		img {
+			height: rem-calc(64);
+			width: rem-calc(64);
+		}
+	}
+}
+
+/*********************
+ORBIT
+*********************/
+.orbit-container
+{
+	display: block;
+	background-color: $light-grey;
+}
+.orbit-container .orbit-slides-container img {
+	margin: 0 auto;
+	width: 100%;
+}
+.orbit-link
+{
+    border: 2px solid $purle;
+	width: 10%;
+    top: 65%;
+	right: 12%;
+	min-height: 45px;
+	color: $purle;
+	position: absolute;
+	padding: rem-calc(10) 0;
+    font-family: $font-futura-bold;
+    text-align: center;
+    text-transform: uppercase;
+
+        &:hover {
+    	text-decoration: none;
+		background-color: $purle;
+		color: $white;
+    }
+}
+.orbit-caption
+{
+	font-size: rem-calc(78) !important;
+	color: $green;
+	top: 0;
+	right: 0;
+	width: 60% !important;
+	font-family: $font-modern-20;
+	float: right;
+	text-align: right;
+	margin-right: 10%;
+	line-height: 1;
+	margin-top: rem-calc(20);
+
+}
+
+.orbit-container .orbit-timer .orbit-progress{
+	display: none !important;
+}
+
+/*********************
+PRODUCT
+*********************/
+#latest-product-holder{
+.product-heading
+{
+	font-size: rem-calc(30);
+	color: $gold;
+	margin: rem-calc(40);
+	display: block;
+}
+.more-product
+{
+	border: 2px solid $gold;
+	background-color: $white;
+	color: $black;
+	display: inline-block;
+	margin: rem-calc(40) 0;
+}
+.more-product:hover
+{
+	border: 2px solid $dark-grey;
+	background-color: $gold;
+	color: $white;
+}
+}
+.woocommerce .woocommerce-product-rating .star-rating
+{
+	float: right;
+}
+.woocommerce div.product .woocommerce-product-rating
+{
+	border-bottom: 3px solid $light-grey;
+}
+.woocommerce .widget_shopping_cart .total, .woocommerce.widget_shopping_cart .total {
+  border-top: 2px solid $light-grey;
+  border-bottom: 2px solid $light-grey;
+  padding: 10px 0 10px;
+  text-align: center;
+}
+
+.widgettitle
+{
+	border-bottom: 3px solid $dark-grey;
+	font-family: $font-futura-bold;
+
+}
+
+.woocommerce .widget_shopping_cart .cart_list li, .woocommerce.widget_shopping_cart .cart_list li {
+  padding-left: 0;
+  padding-top: 0;
+  }
+
+.fa-angle-left:before {
+  margin: rem-calc(5);
+  font-size: rem-calc(20);
+}
+
+.fa-angle-right:before {
+  margin: rem-calc(5);
+  font-size: rem-calc(20);
+}
+
+.woocommerce ul.cart_list li a, .woocommerce ul.product_list_widget li a {
+  text-align: center;
+}
+
+.woocommerce .cart .button, .woocommerce .cart input.button {
+  float: none;
+  margin: rem-calc(10);
+ }
+
+ .woocommerce table.cart td.actions .input-text, .woocommerce-page #content table.cart td.actions .input-text, .woocommerce-page table.cart td.actions .input-text {
+  margin: rem-calc(10);
+}
+
+div#tab-reviews {
+  margin-top: rem-calc(20);
+}
+
+
+strong.review-author {
+  margin-left: rem-calc(20);
+}
+
+
+.woocommerce .quantity .qty {
+  width: 4.8em;
+  text-align: center;
+  height: 3.631em;
+  background-color: $light-grey;
+}
+
+input.qtyplus {
+ width:rem-calc(25);
+  height:rem-calc(25);
+  margin-top: rem-calc(30);
+}
+input.qtyminus {
+ width:rem-calc(25);
+  height:rem-calc(25);
+  margin-top: rem-calc(30);
+}
+
+.product_gallery .ad-gallery {
+  margin-top: rem-calc(13) !important;
+}
+
+.woocommerce div.product div.images{
+	margin: 0 !important;
+	width: 90% !important;
+}
+
+.ad-gallery .ad-image-wrapper {
+  width: rem-calc(210) !important;
+  height: rem-calc(250) !important;
+}
+
+
+.page-numbers {
+
+	&.next {
+		margin-left: rem-calc(20);
+	}
+
+	&.prev {
+		margin-right: rem-calc(18);
+	}
+}
+
+/*********************
+UPCOMING EVENTS
+*********************/
+#upcoming-events-holder .event-item {
+  margin-bottom: rem-calc(30);
+}
+
+
+/*********************
+CONTACT PAGE
+*********************/
+.contact-row{
+
+	.contact-name{
+		font-size: rem-calc(18);
+	}
+	.contact-number {
+	   font-size: rem-calc(12);
+	}
+
+	.contact-email {
+	    font-size: rem-calc(12);
+	}
+
+}
+
+img.img-black {
+  width: rem-calc(10);
+ }
+
+.after-product-spacing{
+	margin-bottom: rem-cacl(20);
+}
+/*********************
+SIDEBARS & ASIDES
+*********************/
+
+.widget {
+	padding: 0 rem-calc(10);
+	margin: 2.2em 0;
+}
+
+
+/*********************
+CHECKOUT
+*********************/
+.woocommerce table.cart td.actions .input-text, .woocommerce-page #content table.cart td.actions .input-text, .woocommerce-page table.cart td.actions .input-text {
+  width: rem-calc(100);
+}
+
+.shop_table table thead {
+  background: #F9F9F9;
+}
+
+input#coupon_code
+{
+	height: rem-calc(32);
+}
+
+.woocommerce #content table.cart td.actions, .woocommerce table.cart td.actions, .woocommerce-page #content table.cart td.actions, .woocommerce-page table.cart td.actions
+{
+	padding: 0;
+}
+
+/*********************
+ABOUT PAGE
+*********************/
+.panel.after-care {
+  padding-left: rem-cacl(50);
+  margin: rem-calc(20);
+  padding-top: rem-calc(35);
+}
+
+/*********************
+LOGIN
+*********************/
+div#customer_login {
+  width: 90%;
+  padding-left: rem-calc(100);
+  padding-right: rem-calc(100);
+  margin-left: rem-calc(50);
+  margin-right: rem-calc(50);
+}
+
+/*********************
+FOOTER STYLES
+*********************/
+
+.footer {
+	padding: rem-calc(30) 0;
+
+	a.footer-links-contact {
+		font-size: rem-calc(12);
+	}
+
+}
+.footer-links {
+	ul {
+		li {}
+	}
+} /* end .footer-links */
+
+.footer span.source-org.copyright {
+  display: inherit;
+  padding-top: rem-calc(40);
+}
+/*********************
+FOUNDATION STYLES
+*********************/
+
+/*********************
+PLUGIN STYLES
+*********************/
