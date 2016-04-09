@@ -45,3 +45,29 @@ body {
     background-size: cover;
 }
 
+
+
+
+
+
+
+
+
+
+
+/****************/
+/* FORM Classes */ /* (CONTACT FORM 7 PLUGIN) */
+/****************/
+
+form.wpcf7-form {
+	text-align:left;	
+}
+
+div#contact-area {
+	display:inline;
+	float:left;
+	margin:0 30%;
+	padding: 20px 50px;
+    border-radius: 25px;
+	border: 3px solid #2D3192;
+}
