@@ -5,7 +5,14 @@
 
 <div id="content" role="main">
     <div id="inner-content">
-        <?php get_template_part('parts/nav', 'top-topbar-fixed'); ?>
+        
+        <!-- test navigation -->
+        <?php //get_template_part('parts/nav', 'top-topbar-fixed'); ?>
+
+        <!-- russel logo/navigation -->
+        <?php get_template_part('parts/nav', 'lws-logo-fixed'); ?>
+
+
     </div> <!-- end #inner-content -->
 </div> <!-- end #content -->
 

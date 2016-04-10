@@ -21,14 +21,14 @@ function joints_scripts_and_styles() {
     // register main stylesheet
     wp_enqueue_style( 'bootstrap-stylesheet', get_template_directory_uri() . '/bootstrap/css/bootstrap.css', array('jquery'));
     // Register the script like this for a theme:
-    wp_register_script( 'bootstrap-script', get_template_directory_uri() . '/jkit/jquery.jkit.1.2.16.js', array( 'jquery' ) );
-    // For either a plugin or a theme, you can then enqueue the script:
-    wp_enqueue_script( 'bootstrap-script' );
-
-    // Register the script like this for a theme:
-    wp_register_script( 'jkit-script', get_template_directory_uri() . '/bootstrap/js/bootstrap.js', array( 'jquery' ) );
+    wp_register_script( 'jkit-script', get_template_directory_uri() . '/jkit/jquery.jkit.1.2.16.js', array( 'jquery' ) );
     // For either a plugin or a theme, you can then enqueue the script:
     wp_enqueue_script( 'jkit-script' );
+
+    // Register the script like this for a theme:
+    wp_register_script( 'bootstrap-script', get_template_directory_uri() . '/bootstrap/js/bootstrap.js', array( 'jquery' ) );
+    // For either a plugin or a theme, you can then enqueue the script:
+    wp_enqueue_script( 'bootstrap-script' );
 
     wp_register_script('slick_stylesheet', get_template_directory_uri() . '/slick/slick.css');
     wp_enqueue_script('slick_stylesheet');
