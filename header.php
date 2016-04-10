@@ -53,6 +53,8 @@
 	);
 -->
 
+<!-- ***************************** -->
+<!-- THIS CODE MOVED FROM page.php -->
 <div id="content" role="main">
     <div id="inner-content">
         
@@ -61,3 +63,5 @@
 
         <!-- russel logo/navigation -->
         <?php get_template_part('parts/nav', 'lws-logo-fixed'); ?>
+		
+<!-- ****************************** -->
