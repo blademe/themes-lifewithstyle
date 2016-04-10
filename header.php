@@ -52,3 +52,12 @@
 		 'walker' => new description_walker())
 	);
 -->
+
+<div id="content" role="main">
+    <div id="inner-content">
+        
+        <!-- test navigation -->
+        <?php //get_template_part('parts/nav', 'top-topbar-fixed'); ?>
+
+        <!-- russel logo/navigation -->
+        <?php get_template_part('parts/nav', 'lws-logo-fixed'); ?>
