@@ -12,6 +12,10 @@
         <!-- russel logo/navigation -->
         <?php get_template_part('parts/nav', 'lws-logo-fixed'); ?>
 
+        <!-- modal menu -->
+        <?php get_template_part('parts/banner', 'top-main-frontpage'); ?>
+
+
 
     </div> <!-- end #inner-content -->
 </div> <!-- end #content -->
