@@ -7,15 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Website, Web design, Website design, Web Designer, Cape Town, Marketing, Online Marketing, Digital Branding, Hardware Sales, Software Sales, Computer Sales">
 	<meta name="author" content="Russel Fish">
+
     <?php wp_enqueue_script("jquery"); ?>	
 	<?php wp_head(); ?>
+	<script type="text/javascript" src="<?php get_template_directory_uri(); ?>/bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/bootstrap/css/bootstrap.css" >
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/bootstrap/css/bootstrap-responsive.css" >
 
 	<!-- CSS file(s) to be used -->
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/style.css" >
 
-	<!--    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>   -->
-	<!--    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>    -->
-	<!--    <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>   -->
 </head>
 
 	<!-- CODE TO DISABLE RIGHT CLICKING ON WEBSITE Note: This can be overcome by more advanced visitors
@@ -62,6 +63,10 @@
         <?php //get_template_part('parts/nav', 'top-topbar-fixed'); ?>
 
         <!-- russel logo/navigation -->
-        <?php get_template_part('parts/nav', 'lws-logo-fixed'); ?>
+        <?php get_template_part('parts/nav', 'lws-logo-fixed-top'); ?>
+		
+    </div> <!-- end #inner-content -->
+</div> <!-- end #content -->
+
 		
 <!-- ****************************** -->

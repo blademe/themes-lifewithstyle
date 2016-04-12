@@ -7,9 +7,14 @@
 
         <!-- modal menu -->
         <?php get_template_part('parts/banner', 'top-main-frontpage'); ?>
+        <?php get_template_part('parts/modal', 'page-slider'); ?>
 
-    </div> <!-- end #inner-content -->
-</div> <!-- end #content -->
+        <?php
+
+        echo get_template_directory_uri();
+        echo bloginfo('template_directory');
+
+        ?>
 
 
 
